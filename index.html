@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex Reyes — Student Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">AR<span class="dot">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">PORTFOLIO</div>
+    <div class="hero-content">
+      <p class="hero-tag">✦ CS Student · Builder · Explorer</p>
+      <h1 class="hero-name">Alex<br/><em>Reyes</em></h1>
+      <p class="hero-sub">I build things for the web, learn relentlessly, and turn ideas into real projects.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Say Hello →</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span class="mono">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label"><span class="mono">01 /</span> About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>A student who <em>loves</em> to build.</h2>
+          <p>I'm a 3rd-year Computer Science student passionate about creating meaningful digital experiences. When I'm not studying algorithms, I'm working on side projects, contributing to open source, or reading about design systems.</p>
+          <p>I believe the best way to learn is by <strong>building things that matter</strong> — even if they're imperfect at first.</p>
+          <div class="about-pills">
+            <span>🎓 B.Sc. Computer Science</span>
+            <span>📍 Chennai, India</span>
+            <span>🚀 Open to Internships</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="card-inner">
+            <div class="avatar-placeholder">AR</div>
+            <p class="mono card-status">⬤ Available for opportunities</p>
+            <div class="card-stats">
+              <div><strong>10+</strong><span>Projects</span></div>
+              <div><strong>3rd</strong><span>Year</span></div>
+              <div><strong>5+</strong><span>Tech Stack</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label"><span class="mono">02 /</span> Projects</div>
+      <h2>Things I've <em>built</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-tag">Featured</div>
+          <h3>StudySync</h3>
+          <p>A collaborative study planner app that helps students organize sessions, share notes, and track progress together in real time.</p>
+          <div class="project-tech">
+            <span>React</span><span>Firebase</span><span>Tailwind</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-ghost">GitHub ↗</a>
+            <a href="#" class="btn-ghost">Live Demo ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>WeatherNow</h3>
+          <p>A clean weather dashboard with 7-day forecasts, geolocation, and animated weather states using the OpenWeather API.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>API</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Budget Buddy</h3>
+          <p>A personal finance tracker with visual charts, category filters, and local storage persistence — no backend needed.</p>
+          <div class="project-tech">
+            <span>Vue.js</span><span>Chart.js</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>QuizBot CLI</h3>
+          <p>A command-line quiz app in Python that reads questions from JSON and tracks scores with leaderboard support.</p>
+          <div class="project-tech">
+            <span>Python</span><span>JSON</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label"><span class="mono">03 /</span> Skills</div>
+      <h2>My <em>toolkit</em></h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-tags">
+            <span>Python</span><span>JavaScript</span><span>C++</span><span>SQL</span><span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks & Libraries</h4>
+          <div class="skill-tags">
+            <span>React</span><span>Vue.js</span><span>Node.js</span><span>Express</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Tools & Platforms</h4>
+          <div class="skill-tags">
+            <span>Git & GitHub</span><span>VS Code</span><span>Firebase</span><span>Figma</span><span>Linux</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Currently Learning</h4>
+          <div class="skill-tags learning">
+            <span>TypeScript</span><span>Docker</span><span>Next.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact-inner">
+      <div class="section-label"><span class="mono">04 /</span> Contact</div>
+      <h2>Let's <em>connect</em></h2>
+      <p class="contact-sub">I'm actively looking for internship opportunities and love meeting people in tech. Drop me a message!</p>
+      <a href="mailto:alex@example.com" class="btn-primary big">alex@example.com ✉</a>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span class="mono">© 2026 Alex Reyes — Built with HTML, CSS & JS</span>
+    <a href="#home" class="back-top">↑ Back to top</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
